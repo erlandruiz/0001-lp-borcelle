@@ -90,3 +90,45 @@ form {
 #navbar{
     padding-top: 80px;
 }
+
+//Showcase
+#showcase{
+    padding: 50px;
+    .container{
+        display: flex;
+        .showcase-text{
+            flex: 2;
+            padding-top: 80px;
+            h1,p{
+                padding-right: 80px;
+            }
+        }
+        .showcase-form{
+            flex: 1;
+            background: #fff;
+            color: #000;
+            border-radius: 20px;
+        }
+        h4{
+            text-align: center;
+            padding-top: 70px;
+        }
+        form{
+            padding: 50px 60px;
+        }
+        button{
+            width: 100%;
+            margin-top: 20px;
+        }
+    }
+} // End Showcase
+
+//Footer
+#mainfooter{
+    text-align: center;
+    padding: 30px;
+    border-radius: 20px solid $primary-color;
+    background: #015ccf;
+}
+
+@import 'mobile';

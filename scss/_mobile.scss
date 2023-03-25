@@ -1,0 +1,27 @@
+@media  (max-width:700px) {
+
+//Nav
+#navbar{
+    padding-top: 30px;
+    text-align: center;
+}
+
+//Showcase
+#showcase{
+    padding: 20px;
+    .container{
+        flex-direction: column;
+        .showcase-text{
+            
+            padding-top: 0;
+            h1, h2, p{
+                padding-right: 0px;
+                text-align: center;
+            }
+        }
+      
+    }
+} // End Showcase
+   
+}
+

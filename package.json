@@ -1,0 +1,14 @@
+{
+  "name": "borcelle",
+  "version": "1.0.0",
+  "description": "100 paginas web anual",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Erland Ruiz colaboracion Irina",
+  "license": "MIT",
+  "dependencies": {
+    "sass": "^1.60.0"
+  }
+}
